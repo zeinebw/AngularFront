@@ -4,7 +4,7 @@ import {CreditComponent} from "./credit/credit.component";
 import {FrontComponent} from "./front/front.component";
 
 const routes: Routes = [
-{ path: 'credit', component:CreditComponent },
+{ path: 'credit/:id', component:CreditComponent },
   { path: 'front', component:FrontComponent }];
 
 @NgModule({

@@ -9,6 +9,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { FrontComponent } from './front/front.component';
 import { CreditComponent } from './credit/credit.component';
 import { ErrorComponent } from './sidebar/error/error.component';
+import {HttpClientModule} from "@angular/common/http";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { ErrorComponent } from './sidebar/error/error.component';
     ErrorComponent
   ],
   imports: [
+    FormsModule,
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule
   ],
